@@ -126,11 +126,6 @@ public class SI2026Lab1Main {
 
         System.out.println("Library initialized.");
 
-        // Test searchBookByTitle functionality
-        System.out.println("\n=== Testing searchBookByTitle ===");
-        System.out.println("Searching for 'Clean Code': " + library.searchBookByTitle("Clean Code"));
-        System.out.println("Searching for 'clean code': " + library.searchBookByTitle("clean code"));
-        System.out.println("Searching for 'The Hobbit': " + library.searchBookByTitle("The Hobbit"));
-        System.out.println("Searching for 'NonExistent Book': " + library.searchBookByTitle("NonExistent Book"));
+
     }
 }
