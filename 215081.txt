@@ -1,0 +1,15 @@
+* | 526f904 Update borrow message on master
+|/
+| *   209634b (refs/stash) WIP on feature-borrow-book: 98987e6 asd
+| |\
+| | * 3583520 index on feature-borrow-book: 98987e6 asd
+| |/
+| * 98987e6 (origin/feature-borrow-book, feature-borrow-book) asd
+| * 41cb0f2 Implement borrow book
+|/
+* 46e460e (origin/feature-search-books, feature-search-books) removed test casses
+* c9c7b7a Implement book search
+* 018bd0d (origin/main, origin/HEAD) Added Main
+* f0f6c93 Update README.md
+* c790d7b Initial commit
+(END)

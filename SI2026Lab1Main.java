@@ -137,12 +137,5 @@ public class SI2026Lab1Main {
 
         System.out.println("Library initialized.");
 
-        // Test printBooksByGenre functionality
-        System.out.println("\n=== Testing printBooksByGenre ===");
-        library.printBooksByGenre("Programming");
-        System.out.println();
-        library.printBooksByGenre("Fantasy");
-        System.out.println();
-        library.printBooksByGenre("Mystery");
     }
 }
