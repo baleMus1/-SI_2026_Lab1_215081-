@@ -61,13 +61,13 @@ class Library {
         return false;
     }
 
-    // TODO: Implement in branch feature-borrow-book
+    // Implemented in branch feature-borrow-book
     public void borrowBook(String title) {
         for (Book book : books) {
             if (book.getTitle().equalsIgnoreCase(title)) {
                 if (!book.isBorrowed()) {
                     book.setBorrowed(true);
-                    System.out.println("Book borrowed.");
+                    System.out.println("Borrowed successfully");
                 } else {
                     System.out.println("Book is already borrowed.");
                 }
@@ -126,6 +126,10 @@ public class SI2026Lab1Main {
 
         System.out.println("Library initialized.");
 
-
+        // Test borrowBook functionality
+        System.out.println("\n=== Testing borrowBook ===");
+        library.borrowBook("Clean Code");
+        library.borrowBook("Clean Code");
+        library.borrowBook("NonExistent Book");
     }
 }
