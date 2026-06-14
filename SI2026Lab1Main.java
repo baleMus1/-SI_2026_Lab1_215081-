@@ -126,10 +126,5 @@ public class SI2026Lab1Main {
 
         System.out.println("Library initialized.");
 
-        // Test borrowBook functionality
-        System.out.println("\n=== Testing borrowBook ===");
-        library.borrowBook("Clean Code");
-        library.borrowBook("Clean Code");
-        library.borrowBook("NonExistent Book");
     }
 }
